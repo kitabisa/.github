@@ -1,4 +1,4 @@
-name: Monthly SLOs Report
+name: Bi-weekly / On Demand SLOs Report
 
 on:
   schedule:
