@@ -2,7 +2,9 @@ name: Monthly SLOs Report
 
 on:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
 
 jobs:
   evaluate-actions-consumption:
